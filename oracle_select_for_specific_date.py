@@ -11,7 +11,7 @@ user_date = input("Enter the date to check (format DD.MM.YYYY): ")
 
 try:
     # Establish the connection
-    conn = cx_Oracle.connect(user='rsmidak', password='Ra4sW7C)+4', dsn=dsn_tns)
+    conn = cx_Oracle.connect(user='user', password='password', dsn=dsn_tns)
     print("Successfully connected to the database")
 
     # Prepare the SQL queries with placeholders for the date
